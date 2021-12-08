@@ -55,8 +55,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let var1 = '1999';
+parseInt(var1);
+console.log(var1);
 
 /*
 Task 1d - Multiply
@@ -67,10 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a*b;
 }
-
+console.log(multiply(10, 4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -83,9 +84,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age*7;
 }
+console.log(dogYears(5));
 
 
 
